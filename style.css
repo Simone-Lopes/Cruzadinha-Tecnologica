@@ -1,26 +1,25 @@
-/* Estilização  */
-/* Tudo na página */
+/* ESTILIZAÇÃO  */
 body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #16082f;
-    overflow-x: hidden;
-  }
-  
-  /* Navegação superior */
-  .container-nav {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .header {
-    width: 100vw;
-  }
-  
-  .logo {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #16082f;
+  overflow-x: hidden;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+.container-nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100vw;
+}
+
+/* .logo {
     display: flex;
     align-items: center;
     width: auto;
@@ -29,38 +28,76 @@ body {
   .logo img {
     display: flex;
     width: 100%;
-  }
-  
-  .org-nav-bar {
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
-  
-  .navbar {
-    display: flex;
-    align-items: center;
-    list-style: none;
-    color: #393D46;
-    font-weight: 600;
-    padding: 0%;
-  }
-  
-  li {
-    margin: 20px;
-  }
-  
-  .header a {
-    text-decoration: none;
-    color: #393D46;
-  }
-  
-  .paginas :hover {
-    border-bottom: 1px solid #393D46;
-  
-  }
-  
-  .agora a {
-    font-weight: 800;
-    color: #ffffff;
-  }
+  } */
+
+.logo h1 {
+  color: #ffffff;
+}
+
+.org-nav-bar {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: #393D46;
+  font-weight: 600;
+  padding: 0%;
+}
+
+li {
+  margin: 20px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #5d5f63;
+}
+
+.paginas :hover {
+  border-bottom: 1px solid #5d5f63;
+
+}
+
+.agora a {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+/* BANNER INICIAL */
+.banner-inicial {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./imagens/constelação.gif);
+  background-size: cover;
+}
+
+.container-banner {
+  width: 90%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.frase-efeito {
+  width: 30%;
+  color: #c7c7c7;
+  font-size: 30px;
+  text-align: end;
+}
+
+.frase-efeito h1 {
+  margin: 0%;
+}
+
+.frase-efeito span {
+  color: #1049a6;
+}
