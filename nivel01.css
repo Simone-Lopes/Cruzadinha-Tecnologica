@@ -1,21 +1,20 @@
 header h1 {
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 table {
-    border: 1px #1F618D solid;
+    border: 10px #16082f solid;
     font-size: 25px;
-    margin-left: 130px;
     margin: auto;
 }
 
 tr {
-    border: 1px #1F618D solid;
+    border: 1px #16082f solid;
 }
 
 td {
-    border: 1px #1F618D solid;
+    border: 1px #16082f solid;
     width: 30px;
     height: 30px;
     text-align: center;
@@ -24,30 +23,60 @@ td {
 
 button {
     border: 0px;
-    background-color: #EC7063;
+    background-color: #1049a6;
     color: #ffffff;
     padding: 10px;
     font-size: 20px;
     border-radius: 20px;
 }
 
-.container {
-    width: 1100px;
-    margin: auto;
+.fundo {
+    display: flex;
+    width: 100%;
+    background-image: url(imagens/gif\ estrela.gif);
 }
 
-#div_game {
-    background-color: #ffffff;
-    margin: auto;
+.caixa_container1 {
+    width: 60%;
+}
 
-    width: 800px;
-    height: 800px;
+.caixa_container2 {
+    width: 38%;
+    margin-top: 10%;
+}
+
+.container {
+    width: auto;
+    margin-left: 120px;
+}
+
+#span_questionText {
+    Color: #ffffff;
+}
+
+.container span {
+    Color: #1049a6;
+}
+
+.container h2 {
+    Color: #1049a6;
+    font-size: 50px;
+}
+
+#gridGame {
+    border-radius: 3%;
 }
 
 #div_questions {
-    background-color: #85C1E9;
-    width: 700px;
-    margin: auto;
+    background-color: #16082f;
+    width: auto;
+    margin: 5%;
+    padding: 5%;
+    border-radius: 10px;
+}
+
+#div_canvasCruzada {
+    padding: 2px;
 }
 
 .button {
@@ -65,56 +94,16 @@ button {
     margin: auto;
 }
 
+
+#div_verifiedAnswer{
+    margin: 50px;
+    }
+
 .deadCell {
-    background-color: #1F618D;
+    background-color: #16082f;
 }
 
 .availableCell {
     background-color: #ffffff;
 }
 
-footer {
-    height: 80px;
-    background-color: #2C3E50;
-    color: #ffffff;
-    font-size: 15px;
-    margin-bottom: 0;
-    padding: 0;
-    bottom: 0;
-}
-
-footer p {
-    text-align: center;
-
-}
-
-#div_information {
-    width: 500px;
-    margin: auto;
-    background-color: #85C1E9;
-    font-size: 20px;
-}
-
-
-#div_verifiedAnswer {
-    width: 500px;
-    height: 70px;
-    margin: auto;
-    text-align: center;
-    font-size: 20px;
-    vertical-align: center;
-    margin-bottom: 20px;
-}
-
-.correctAnswer {
-    background-color: #58D68D;
-    color: #196F3D;
-    border: 1px #196F3D solid;
-}
-
-.wrongAnswer {
-    background-color: #EC7063;
-    color: #7B241C;
-    border: 1px #7B241C solid;
-
-}
