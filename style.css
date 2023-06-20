@@ -16,7 +16,17 @@ body {
 }
 
 .header {
-  width: 100vw;
+  width: 100%;
+}
+
+.logo-div{
+  width: 300px;
+  display: flex;
+}
+
+.logo{
+  width:100px;
+  margin-top:2px;
 }
 
 /* .logo {
@@ -30,7 +40,7 @@ body {
     width: 100%;
   } */
 
-.logo h1 {
+.logo-div h1 {
   color: #ffffff;
 }
 
