@@ -3,15 +3,25 @@ header h1 {
     font-size: 40px;
 }
 
-#div_verifiedAnswer{
+.logo{
+    width:100px;
+    margin-top:2px;
+}
+
+#div_verifiedAnswer {
     font-weight: 800;
-    font-size: 50px;
+    font-size: 25px;
     color: #ffffff;
 }
-#input_answer{
+
+#input_answer {
     background-color: #16082f;
+    color: #ffffff;
+    font-size: 20px;
+    width: 120px;
+    margin: auto;
 }
-  
+
 
 table {
     border: 10px #16082f solid;
@@ -64,10 +74,6 @@ button {
     Color: #ffffff;
 }
 
-.container span {
-    Color: #1049a6;
-}
-
 .container h2 {
     Color: #1049a6;
     font-size: 50px;
@@ -99,19 +105,14 @@ button {
     margin: auto;
 }
 
-#input_answer {
-    width: 100px;
-    margin: auto;
-}
-
-#div_information{
+#div_information {
     background-color: #ffffff;
     border-radius: 10px;
 }
 
-#div_verifiedAnswer{
+#div_verifiedAnswer {
     margin: 50px;
-    }
+}
 
 .deadCell {
     background-color: #16082f;
@@ -120,4 +121,3 @@ button {
 .availableCell {
     background-color: #ffffff;
 }
-
