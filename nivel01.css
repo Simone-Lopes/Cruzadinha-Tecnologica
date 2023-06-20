@@ -3,6 +3,16 @@ header h1 {
     font-size: 40px;
 }
 
+#div_verifiedAnswer{
+    font-weight: 800;
+    font-size: 50px;
+    color: #ffffff;
+}
+#input_answer{
+    background-color: #16082f;
+}
+  
+
 table {
     border: 10px #16082f solid;
     font-size: 25px;
@@ -94,6 +104,10 @@ button {
     margin: auto;
 }
 
+#div_information{
+    background-color: #ffffff;
+    border-radius: 10px;
+}
 
 #div_verifiedAnswer{
     margin: 50px;
