@@ -112,25 +112,52 @@ li {
   margin-top: 5%;
   font-weight: 700;
 }
+
 .button-iniciar:hover{
   background-color: #ffffff;
   color: #16082f;
 }
+
+.frase-efeito a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* CARD DEV */
 .container-dev{
   width: 100%;
-  height: 90vh;
+  height: 95vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .card-dev{
-  width: 25%;
+  width: 23%;
   height: 60vh;
   background-color: #ffffff;
   border-radius: 25px;
-  margin: 30px;
+  margin: 35px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-} 
+}
+.card-dev img{
+  width: 150px;
+  border-radius: 100px;
+}
+.card-dev p{
+  width: 90%;
+  text-align: center;
+}
+.card-dev h1{
+  color: #16082f;
+}
+/* FOOTER */
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #56407d;
+}
